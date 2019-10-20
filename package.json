@@ -1,13 +1,22 @@
 {
-  "name": "a",
+  "name": "basic-form-js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.io/hansmacaraan/basic-form-js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.io/hansmacaraan/basic-form-js.git"
+  },
+  "author": "Hans Godriel P. Macaraan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hansmacaraan/basic-form-js/issues"
+  },
   "dependencies": {
     "gh-pages": "^2.1.1"
   }
